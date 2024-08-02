@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-color: #45474B; /* Light beige */
+    color: black; /* Dark blueish gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    background-color: #F4CE14; /* Light blueish gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limiting width for better readability */
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+    text-align:center;
+}
+
+label {
+    color: black; /* Dark olive */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #4C5760; /* Dark blueish gray */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    background-color: #45474B; /* Light olive */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45474B; /* Dark olive */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #66635B; /* Dark olive */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Link styles */
+a {
+    color: black; /* Dark blueish gray */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    color: black; /* Dark blueish gray */
+    text-align: center;
+}
+
+/* Button container */
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Specific page adjustments */
+
+/* Adjusting h2 position for customer_login.html and login_fail.jsp */
+.customer-login h2,
+.login-fail h2 {
+    text-align: center;
+}
+
+.customer-login form,
+.login-fail form {
+    margin-top: 20px;
+    text-align: center;
+}
